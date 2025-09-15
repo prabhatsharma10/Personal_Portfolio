@@ -1,21 +1,21 @@
 <?php
 $contact_info = [
-    'email' => 'john.doe@example.com',
-    'phone' => '+1 (555) 123-4567',
-    'location' => 'San Francisco, CA',
+    'email' => 'look.prabhat@gmail.com',
+    'phone' => '+91 9532700804',
+    'location' => 'Lucknow, Uttar Pradesh, India',
     'availability' => 'Available for freelance work'
 ];
 
 $social_links = [
     [
         'name' => 'GitHub',
-        'url' => 'https://github.com/johndoe',
+        'url' => 'https://github.com/prabhatsharma10',
         'icon' => 'fab fa-github',
         'color' => 'hover:text-gray-800'
     ],
     [
         'name' => 'LinkedIn',
-        'url' => 'https://linkedin.com/in/johndoe',
+        'url' => 'https://linkedin.com/in/prabhatsharma-',
         'icon' => 'fab fa-linkedin-in',
         'color' => 'hover:text-blue-600'
     ],
@@ -27,7 +27,7 @@ $social_links = [
     ],
     [
         'name' => 'Instagram',
-        'url' => 'https://instagram.com/johndoe',
+        'url' => 'https://instagram.com/prabhat_.sharma._',
         'icon' => 'fab fa-instagram',
         'color' => 'hover:text-pink-600'
     ]

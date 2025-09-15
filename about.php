@@ -1,10 +1,10 @@
 <?php
 $about_info = [
-    'description' => "I'm a passionate Full Stack Developer with over 5 years of experience creating innovative web solutions. I specialize in modern JavaScript frameworks, PHP backends, and creating seamless user experiences that drive business growth.",
-    'experience' => '5+ Years',
-    'projects_completed' => '50+',
-    'happy_clients' => '30+',
-    'location' => 'San Francisco, CA'
+    'description' => "I'm a passionate Full Stack Developer with over 0 years of experience creating innovative web solutions. I specialize in modern JavaScript frameworks, PHP backends, and creating seamless user experiences that drive business growth.",
+    'experience' => 'Fresher',
+    'projects_completed' => '9+',
+    'happy_clients' => '2+',
+    'location' => 'Lucknow, Uttar Pradesh, India'
 ];
 
 $highlights = [
@@ -87,7 +87,7 @@ $highlights = [
 
                 <!-- CTA Button -->
                 <div class="mt-8">
-                    <a href="#contact" 
+                    <a href="assets/docs/resume.pdf" download
                        class="inline-flex items-center bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full hover:from-blue-700 hover:to-purple-700 transition duration-300 transform hover:scale-105 shadow-lg">
                         <i class="fas fa-download mr-3"></i>
                         Download Resume
