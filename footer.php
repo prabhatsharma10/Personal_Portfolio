@@ -12,13 +12,13 @@ $footer_links = [
 $social_media = [
     [
         'name' => 'GitHub',
-        'url' => 'https://github.com/johndoe',
+        'url' => 'https://github.com/prabhatsharma10',
         'icon' => 'fab fa-github',
         'color' => 'hover:text-gray-300'
     ],
     [
         'name' => 'LinkedIn',
-        'url' => 'https://linkedin.com/in/johndoe',
+        'url' => 'https://linkedin.com/in/prabhatsharma-',
         'icon' => 'fab fa-linkedin-in',
         'color' => 'hover:text-blue-400'
     ],
@@ -30,13 +30,13 @@ $social_media = [
     ],
     [
         'name' => 'Instagram',
-        'url' => 'https://instagram.com/johndoe',
+        'url' => 'https://instagram.com/prabhat_.sharma._',
         'icon' => 'fab fa-instagram',
         'color' => 'hover:text-pink-400'
     ],
     [
         'name' => 'Email',
-        'url' => 'mailto:john.doe@example.com',
+        'url' => 'mailto:look.prabhat@gmail.com',
         'icon' => 'fas fa-envelope',
         'color' => 'hover:text-yellow-400'
     ]
@@ -65,14 +65,14 @@ $services = [
                         </span>
                     </h3>
                     <p class="text-gray-400 mb-6 leading-relaxed">
-                        Full Stack Developer passionate about creating innovative web solutions that drive business growth and deliver exceptional user experiences.
+                        Full-stack developer passionate about building scalable web applications and engaging user experiences.
                     </p>
                     
                     <!-- Location & Status -->
                     <div class="space-y-3">
                         <div class="flex items-center space-x-3">
                             <i class="fas fa-map-marker-alt text-blue-400"></i>
-                            <span class="text-gray-400">San Francisco, CA</span>
+                            <span class="text-gray-400">Lucknow, Uttar Pradesh, India</span>
                         </div>
                         <div class="flex items-center space-x-3">
                             <div class="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
@@ -127,14 +127,14 @@ $services = [
                 <div class="space-y-4 mb-6">
                     <div class="flex items-center space-x-3">
                         <i class="fas fa-envelope text-blue-400"></i>
-                        <a href="mailto:john.doe@example.com" class="text-gray-400 hover:text-white transition duration-300">
-                            john.doe@example.com
+                        <a href="mailto:look.prabhat@gmail.com" class="text-gray-400 hover:text-white transition duration-300">
+                            look.prabhat@gmail.com
                         </a>
                     </div>
                     <div class="flex items-center space-x-3">
                         <i class="fas fa-phone text-green-400"></i>
-                        <a href="tel:+15551234567" class="text-gray-400 hover:text-white transition duration-300">
-                            +1 (555) 123-4567
+                        <a href="tel:+919532700804" class="text-gray-400 hover:text-white transition duration-300">
+                            +91 9532700804
                         </a>
                     </div>
                 </div>
@@ -191,7 +191,7 @@ $services = [
             </div>
 
             <!-- Tech Stack Credit -->
-            <div class="mt-8 pt-8 border-t border-gray-800 text-center">
+            <!-- <div class="mt-8 pt-8 border-t border-gray-800 text-center">
                 <p class="text-gray-500 text-xs">
                     Built with 
                     <span class="text-blue-400">PHP</span>, 
@@ -200,7 +200,7 @@ $services = [
                     & deployed on 
                     <span class="text-orange-400">AWS</span>
                 </p>
-            </div>
+            </div> -->
         </div>
     </div>
 

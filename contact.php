@@ -135,7 +135,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_form'])) {
                 </div>
 
                 <!-- Response Time -->
-                <div class="bg-gradient-to-r from-blue-600 to-purple-600 p-6 rounded-xl text-white">
+                <div class="bg-blue-600 p-6 rounded-xl text-white">
                     <div class="flex items-center space-x-3 mb-3">
                         <i class="fas fa-bolt text-yellow-300 text-xl"></i>
                         <h4 class="font-semibold">Quick Response</h4>
@@ -219,7 +219,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_form'])) {
                             </label>
                             <textarea id="message" 
                                       name="message" 
-                                      rows="6" 
+                                      rows="4" 
                                       required
                                       class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none transition duration-300 resize-vertical bg-white"
                                       placeholder="Tell me about your project, ideas, or just say hello..."><?php echo isset($_POST['message']) ? htmlspecialchars($_POST['message']) : ''; ?></textarea>
@@ -264,7 +264,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_form'])) {
                 </div>
 
                 <!-- Alternative Contact Methods -->
-                <div class="mt-8 text-center">
+                <!-- <div class="mt-8 text-center">
                     <p class="text-gray-600 mb-4">Prefer a different way to connect?</p>
                     <div class="flex flex-wrap justify-center gap-4">
                         <a href="mailto:<?php echo $contact_info['email']; ?>" 
@@ -278,12 +278,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_form'])) {
                             Call Now
                         </a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 
         <!-- FAQ Section -->
-        <div class="mt-16 max-w-4xl mx-auto">
+        <!-- <div class="mt-16 max-w-4xl mx-auto">
             <h3 class="text-2xl font-bold text-gray-800 mb-8 text-center">Frequently Asked Questions</h3>
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="bg-gray-50 p-6 rounded-xl">
@@ -326,7 +326,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_form'])) {
                     </p>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
 

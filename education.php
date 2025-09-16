@@ -1,19 +1,19 @@
 <?php
 $education = [
     [
-        'degree' => 'Master of Computer Science',
-        'institution' => 'Stanford University',
-        'location' => 'Stanford, CA',
-        'year' => '2018-2020',
-        'description' => 'Specialized in Software Engineering and Machine Learning. Graduated Magna Cum Laude with a GPA of 3.8/4.0.',
+        'degree' => 'Bachelor of Technology (Computer Engineering)',
+        'institution' => 'Ganpat University',
+        'location' => 'Ganpat Vidyanagar, Gujarat, India',
+        'year' => '2022-2026',
+        'description' => 'Specialized in Software Engineering. Relevant coursework includes Data Structures, Algorithms, Database Management, and Web Development. Participated in various coding competitions and hackathons.',
         'achievements' => ['Dean\'s List', 'Research Assistant', 'Published 2 papers'],
         'icon' => 'fas fa-graduation-cap'
     ],
     [
-        'degree' => 'Bachelor of Software Engineering',
-        'institution' => 'University of California, Berkeley',
-        'location' => 'Berkeley, CA',
-        'year' => '2014-2018',
+        'degree' => 'Intermediate (Science Stream)',
+        'institution' => 'Lucknow Public Inter College',
+        'location' => 'Lucknow, Uttar Pradesh, India',
+        'year' => '2018-2022',
         'description' => 'Comprehensive study in software development, algorithms, and system design. Active member of the Computer Science Club.',
         'achievements' => ['Summa Cum Laude', 'President of CS Club', 'Hackathon Winner'],
         'icon' => 'fas fa-university'
@@ -29,22 +29,22 @@ $certifications = [
         'icon' => 'fab fa-aws',
         'color' => 'bg-orange-100 text-orange-700 border-orange-200'
     ],
-    [
-        'name' => 'Google Cloud Professional Developer',
-        'issuer' => 'Google Cloud',
-        'date' => 'January 2023',
-        'credential' => 'GCP-PD-2023-005678',
-        'icon' => 'fab fa-google',
-        'color' => 'bg-blue-100 text-blue-700 border-blue-200'
-    ],
-    [
-        'name' => 'Meta React Developer Certificate',
-        'issuer' => 'Meta (Facebook)',
-        'date' => 'November 2022',
-        'credential' => 'META-RD-2022-009012',
-        'icon' => 'fab fa-react',
-        'color' => 'bg-cyan-100 text-cyan-700 border-cyan-200'
-    ],
+    // [
+    //     'name' => 'Google Cloud Professional Developer',
+    //     'issuer' => 'Google Cloud',
+    //     'date' => 'January 2023',
+    //     'credential' => 'GCP-PD-2023-005678',
+    //     'icon' => 'fab fa-google',
+    //     'color' => 'bg-blue-100 text-blue-700 border-blue-200'
+    // ],
+    // [
+    //     'name' => 'Meta React Developer Certificate',
+    //     'issuer' => 'Meta (Facebook)',
+    //     'date' => 'November 2022',
+    //     'credential' => 'META-RD-2022-009012',
+    //     'icon' => 'fab fa-react',
+    //     'color' => 'bg-cyan-100 text-cyan-700 border-cyan-200'
+    // ],
     [
         'name' => 'MongoDB Certified Developer',
         'issuer' => 'MongoDB Inc.',
@@ -67,7 +67,7 @@ $courses = [
 
 <section id="education" class="py-20 bg-gray-50">
     <div class="container mx-auto px-6">
-        <div class="text-center mb-16">
+        <div class="text-center mb-10">
             <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Education & Learning</h2>
             <div class="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-6"></div>
             <p class="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -135,7 +135,7 @@ $courses = [
                 </h3>
 
                 <!-- Certifications Grid -->
-                <div class="space-y-4 mb-12">
+                <!-- <div class="space-y-4 mb-12">
                     <?php foreach ($certifications as $cert): ?>
                         <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-1">
                             <div class="flex items-start justify-between">
@@ -160,8 +160,8 @@ $courses = [
                                 </button>
                             </div>
                         </div>
-                    <?php endforeach; ?>
-                </div>
+                    // <?php endforeach; ?> //
+                </div> -->
 
                 <!-- Online Courses -->
                 <h4 class="text-xl font-bold text-gray-800 mb-6 flex items-center">
@@ -176,8 +176,8 @@ $courses = [
                                 <span class="text-gray-800 font-medium"><?php echo $course; ?></span>
                                 <div class="flex items-center space-x-2">
                                     <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full text-xs font-semibold">
-                                        <i class="fas fa-check mr-1"></i>
-                                        Completed
+                                        <!-- <i class="fas fa-check mr-1"></i> -->
+                                        <a href="#" class="text-green-700 hover:underline">View  <i class="fas fa-external-link-alt"></i></a>
                                     </span>
                                 </div>
                             </div>
@@ -186,7 +186,7 @@ $courses = [
                 </div>
 
                 <!-- Learning Philosophy -->
-                <div class="mt-8 bg-gradient-to-r from-blue-600 to-purple-600 p-6 rounded-xl text-white">
+                <div class="mt-8 bg-blue-600 p-6 rounded-xl text-white">
                     <h4 class="text-lg font-bold mb-3 flex items-center">
                         <i class="fas fa-lightbulb mr-3"></i>
                         Learning Philosophy
@@ -203,11 +203,11 @@ $courses = [
         <!-- Stats Section -->
         <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6">
             <div class="bg-white p-6 rounded-xl text-center shadow-md hover:shadow-lg transition duration-300">
-                <div class="text-3xl font-bold text-blue-600 mb-2">2</div>
+                <div class="text-3xl font-bold text-blue-600 mb-2">1</div>
                 <div class="text-gray-600">Degrees</div>
             </div>
             <div class="bg-white p-6 rounded-xl text-center shadow-md hover:shadow-lg transition duration-300">
-                <div class="text-3xl font-bold text-purple-600 mb-2"><?php echo count($certifications); ?></div>
+                <div class="text-3xl font-bold text-purple-600 mb-2"><?php echo count($courses); ?></div>
                 <div class="text-gray-600">Certifications</div>
             </div>
             <div class="bg-white p-6 rounded-xl text-center shadow-md hover:shadow-lg transition duration-300">
