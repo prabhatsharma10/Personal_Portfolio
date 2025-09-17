@@ -1,9 +1,17 @@
+<?php
+// Main portfolio configuration
+$portfolio_config = [
+    'name' => 'Prabhat Sharma',
+    'title' => 'Software Developer',
+    'tagline' => 'Creating innovative web solutions with passion and precision'
+];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prabhat Sharma - Portfolio</title>
+    <title><?php echo $portfolio_config['name']; ?> - Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <script>
@@ -40,37 +48,22 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
     <!-- Header/Navigation -->
-    <!-- Replace with header.php content -->
-    <header class="bg-white shadow-md fixed top-0 left-0 w-full z-50">
-        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-blue-600">Prabhat Sharma</h1>
-            <nav>
-                <ul class="flex space-x-6">
-                    <li><a href="#hero" class="hover:text-blue-600">Home</a></li>
-                    <li><a href="#about" class="hover:text-blue-600">About</a></li>
-                    <li><a href="#skills" class="hover:text-blue-600">Skills</a></li>
-                    <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
-                    <li><a href="#education" class="hover:text-blue-600">Education</a></li>
-                    <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <?php include 'header.php'; ?>
 
     <!-- Hero Section -->
     <section id="hero" class="min-h-screen bg-gradient-to-br from-blue-600 via-purple-700 to-indigo-800 text-white flex items-center justify-center relative overflow-hidden">
         <div class="absolute inset-0 bg-black opacity-20"></div>
         <div class="container mx-auto px-6 text-center relative z-10 animate-fadeInUp">
             <div class="mb-8">
-                <img src="assets/img/profile.jpeg" alt="Prabhat Sharma" 
+                <img src="assets/img/profile.jpeg" alt="<?php echo $portfolio_config['name']; ?>" 
                      class="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-white shadow-2xl animate-float object-cover">
             </div>
             <h1 class="text-5xl md:text-7xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-200">
-                Prabhat Sharma
+                <?php echo $portfolio_config['name']; ?>
             </h1>
-            <p class="text-xl md:text-2xl mb-2 font-light">Software Developer</p>
+            <p class="text-xl md:text-2xl mb-2 font-light"><?php echo $portfolio_config['title']; ?></p>
             <p class="text-lg md:text-xl mb-8 text-blue-200 max-w-2xl mx-auto">
-                Creating innovative web solutions with passion and precision
+                <?php echo $portfolio_config['tagline']; ?>
             </p>
             <div class="space-y-4 md:space-y-0 md:space-x-4 md:flex md:justify-center">
                 <a href="#projects" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-blue-50 transition duration-300 transform hover:scale-105 shadow-lg">
@@ -88,43 +81,22 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="py-20 container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-center mb-8">About Me</h2>
-        <p class="max-w-3xl mx-auto text-center text-gray-600">[Write your about section here...]</p>
-    </section>
+    <?php include 'about.php'; ?>
 
     <!-- Skills Section -->
-    <section id="skills" class="py-20 bg-gray-100">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center mb-8">Skills</h2>
-            <p class="text-center text-gray-600">[List your skills here...]</p>
-        </div>
-    </section>
+    <?php include 'skills.php'; ?>
 
     <!-- Projects Section -->
-    <section id="projects" class="py-20 container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
-        <p class="text-center text-gray-600">[Showcase your projects here...]</p>
-    </section>
+    <?php include 'projects.php'; ?>
 
     <!-- Education Section -->
-    <section id="education" class="py-20 bg-gray-100">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center mb-8">Education</h2>
-            <p class="text-center text-gray-600">[Add your education details here...]</p>
-        </div>
-    </section>
+    <?php include 'education.php'; ?>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-20 container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-center mb-8">Contact Me</h2>
-        <p class="text-center text-gray-600">[Add your contact form or email here...]</p>
-    </section>
+    <?php include 'contact.php'; ?>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-6 text-center">
-        <p>&copy; 2025 Prabhat Sharma. All rights reserved.</p>
-    </footer>
+    <?php include 'footer.php'; ?>
 
     <script>
         // Smooth scroll for navigation links
