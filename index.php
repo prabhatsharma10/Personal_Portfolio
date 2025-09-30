@@ -50,7 +50,6 @@ $portfolio_config = [
     <!-- Header/Navigation -->
     <?php include 'header.php'; ?>
 
-    <!-- Hero Section -->
     <section id="hero" class="min-h-screen bg-gradient-to-br from-blue-600 via-purple-700 to-indigo-800 text-white flex items-center justify-center relative overflow-hidden">
         <div class="absolute inset-0 bg-black opacity-20"></div>
         <div class="container mx-auto px-6 text-center relative z-10 animate-fadeInUp">
@@ -74,28 +73,23 @@ $portfolio_config = [
                 </a>
             </div>
         </div>
+        
         <!-- Floating geometric shapes -->
         <div class="absolute top-20 left-10 w-20 h-20 bg-blue-400 rounded-full opacity-20 animate-float"></div>
         <div class="absolute bottom-20 right-10 w-16 h-16 bg-purple-400 rounded-lg opacity-20 animate-float" style="animation-delay: 1s;"></div>
         <div class="absolute top-1/2 left-20 w-12 h-12 bg-indigo-400 rounded-full opacity-20 animate-float" style="animation-delay: 2s;"></div>
     </section>
 
-    <!-- About Section -->
     <?php include 'about.php'; ?>
 
-    <!-- Skills Section -->
     <?php include 'skills.php'; ?>
 
-    <!-- Projects Section -->
     <?php include 'projects.php'; ?>
 
-    <!-- Education Section -->
     <?php include 'education.php'; ?>
 
-    <!-- Contact Section -->
     <?php include 'contact.php'; ?>
 
-    <!-- Footer -->
     <?php include 'footer.php'; ?>
 
     <script>
